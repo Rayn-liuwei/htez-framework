@@ -1,39 +1,12 @@
-# 各种框架调研使用测试及开发
-
-
-## 模块介绍
- * elasticsearch        全文索引库
- * spark                基于内存进行大数据计算
- * zookeeper            协调服务
- * avro                 序列化框架
- * protocol buffer      protobuf是google提供的一个开源序列化框架
- * hive                 数据仓库
- * hbase                列式数据库
- * hadoop
- * resetlet
- * face-detection       人脸识别
- * akka                 Akka 并发框架
- * concurrent-nio       并发编程（计算密集型与IO密集型）
- * design-pattern       设计模式
- * flink                Flink 项目
- * 
- *
- *
- 
+# Apache Tez
+==========================================================================================
+## Apache Tez介绍
+Tez 是 Apache 最新的支持 DAG 作业的开源计算框架，它可以将多个有依赖的作业转换为一个作业从而大幅提升DAG作业的性能。Tez并不直接面向最终用户——事实上它允许开发者为最终用户构建性能更快、扩展性更好的应用程序。Hadoop传统上是一个大量数据批处理平台。但是，有很多用例需要近乎实时的查询处理性能。还有一些工作则不太适合MapReduce，例如机器学习。Tez的目的就是帮助Hadoop处理这些用例场景。
 
 
 
-## 相关资料文档
-
- * [solr 官方文档](),地址：
- * [spark 官方文档](),地址：
- * [elasticsearch 官方文档](),地址：
- 
- 
- 
-
-## 设计软件下载
-  * [Axure 7](http://share.weiyun.com/aa9e5cc01f8766630f9a73d1de0095a5)
-  * [PowerDesigner 16.5](http://share.weiyun.com/9b025f1f81b86f5f84e22215fcda9093)
-  * [XMIND 2013](http://share.weiyun.com/95b05e748c0f84559c38c5cdfc9873b7)
+## 作者反馈
+Email : liuwei412552703@163.com
+QQ:412552703
+    
 
